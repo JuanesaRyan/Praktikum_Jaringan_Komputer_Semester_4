@@ -3,7 +3,7 @@
 #### Kelas  : IF 04-04
 
 # Analisis Program: UDP Client
-<img src="../asset/asset_week7/udp_client.png" width="1000" height="500">
+<img src="../asset/asset_week7/udp_client.png">
 
 Perbedaannya kelihatan dari cara ngirim data. UDP itu sifatnya connectionless, alias tidak pakai acara (connect) di awal.
 1. Ganti Aliran ke UDP
@@ -26,7 +26,7 @@ Codingan ini nunjukkin sisi efisiensi. UDP cocok banget kalau mau bikin aplikasi
 ---
 
 # Analisis Program: UDP Server
-<img src="../asset/asset_week7/udp_server.png" width="1000" height="500">
+<img src="../asset/asset_week7/udp_server.png">
 
 Server ini tugasnya standby, nerima paket "anonim", ngolah jadi huruf kapital, terus dibalikin ke pengirimnya.
 1. Setup Tanpa Antrean

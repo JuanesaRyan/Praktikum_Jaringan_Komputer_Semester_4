@@ -3,7 +3,7 @@
 #### Kelas  : IF 04-04
 
 # Analisis Program: TCP Client
-<img src="../asset/asset_week7/tcp_client.png" width="1000" height="500">
+<img src="../asset/asset_week7/tcp_client.png">
 
 Implementasi Socket Programming di sisi client menggunakan protokol TCP (Transmission Control Protocol). Intinya, program ini bertugas buat bikin koneksi ke server, kirim data string, dan nerima balikannya.
 1. Setup Library dan Variabel
@@ -31,7 +31,7 @@ Code ini nunjukkin cara kerja dasar komunikasi client-server. Karena pakai TCP, 
 ---
 
 # Analisis Program: TCP Server
-<img src="../asset/asset_week7/tcp_server.png" width="1000" height="500">
+<img src="../asset/asset_week7/tcp_server.png">
 
 Kalau tadi client itu yang "nelfon", nah kodingan ini ibarat "operator" yang standby 24/7 buat angkat telfon dan ngasih respon.
 
