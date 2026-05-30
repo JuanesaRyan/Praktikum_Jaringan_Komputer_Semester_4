@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Diri</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            margin-top: 100px;
+            background-color: #090000;
+        }
+        .box {
+            background: white;
+            padding: 20px;
+            margin: auto;
+            width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        button {
+            margin-top: 10px;
+            padding: 8px;
+            border: none;
+            background: black;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <h2>I Wayan Juanesa Ryan Pradita</h2>
+        <p>Mahasiswa</p>
+        <p>Suka Tidur</p>
+
+        <button onclick="klik()">quotes hari ini</button>
+        <p id="teks"></p>
+    </div>
+
+    <script>
+        function klik() {
+            document.getElementById("teks").innerText = "Jangan Lupa Tidur";
+        }
+    </script>
+
+</body>
+</html>
